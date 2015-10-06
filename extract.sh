@@ -1,3 +1,5 @@
 Karelia Delgado, Octuber 6th, 2015
 
-## This is a comment from the collaborator
+cut -f $1 -d',' data/antibiotics.csv | sort | uniq > antibiotics_unique.csv
+
+
